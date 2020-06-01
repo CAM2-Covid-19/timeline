@@ -18,7 +18,7 @@
 </head>
 <header id="stickyheaders">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom shadow-sm" style="background-color: transparent !important; transition: top 0.3s; padding-bottom: 0px !important; padding-top: 0px !important;"  id="mainNav">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom shadow-sm navbar-color-changer" style="transition: top 0.3s; padding-bottom: 0px !important; padding-top: 0px !important;"  id="mainNav">
         <div class="container">
             <a href="" class="navbar-brand js-scroll-trigger navbar-image">
                 <img style="width: 65px; height: 39px;" src="src/Cam_2.png">
@@ -168,12 +168,25 @@
             </section>
             <section class = "module parallax parallax-5">
                 <div class = "end_page">
-                    <p class = "titles">Thank You!</p>
+                    <p class = "titles" style="margin-top: 100px;">Thank You!</p>
                     <p class = "titles2 mt-2">Click The link bellow to check out our research and analysis as it relates to the cities mentioned in this time line</p> 
                 </div>
                 </div>
             </section>
         </div>
     </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function() {
+        hamburger.classList.toggle("is-active");
+        });
+    </script>
 </body>
 </html>

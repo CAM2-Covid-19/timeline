@@ -629,3 +629,13 @@ ul li{
 
 
 
+.navbar-color-changer{
+    background-color: transparent;
+}
+
+@media(max-width: 767px)
+{
+    .navbar-color-changer{
+        background-color: #1b1b1b;
+    }
+}
