@@ -623,17 +623,3 @@ ul li{
     min-width: 100%;
     min-height: 100%;
 }
-
-
-
-.navbar-color-changer{
-    background-color: transparent;
-    backdrop-filter: blur(5px);
-}
-
-@media(max-width: 767px)
-{
-    .navbar-color-changer{
-        background-color: #1b1b1b !important;
-    }
-}
