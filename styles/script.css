@@ -197,14 +197,14 @@ section.module.parallax-5{
     }
 
     .page_title div{
-        margin-top: 15%;
+        margin-top: 10vh;
         margin-bottom: 0%;
         padding-bottom: 0%;
         margin-left: 5%;
     }
 
     .page_title span{
-        font-size: 40px;
+        font-size: 3vw;
     }
 
     .location{
@@ -232,15 +232,13 @@ section.module.parallax-5{
         text-align: center;
         overflow-y: scroll;
         color: white;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.795);
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 15px;
         padding-bottom: 15px;
         max-height: 75%;
-        /* top:50%;
-        left:50%;
-        transform: translate(-50% -50%); */
+        margin-top: 2vh;
     }
 
     .text-2{
@@ -253,15 +251,13 @@ section.module.parallax-5{
         text-align: center;
         overflow-y: scroll;
         color: white;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.795);
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 15px;
         padding-bottom: 15px;
         max-height: 75%;
-        /* top:50%;
-        left:50%;
-        transform: translate(-50% -50%); */
+        margin-top: 4vh;
     }
 
     .image5{
@@ -269,6 +265,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 20)/ span calc(40 - 32);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -277,6 +274,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 19)/ span calc(40 - 34);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -285,6 +283,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 10)/ span calc(40 - 34);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -293,6 +292,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 11)/ span calc(40 - 32);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -301,6 +301,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 35)/ span calc(40 - 32);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -309,6 +310,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 34)/ span calc(40 - 34);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -317,6 +319,7 @@ section.module.parallax-5{
         grid-row: calc(40 - 25)/ span calc(40 - 34);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 1vh; */
         /* border: 2px dashed #f69c55; */
     }
 
@@ -325,10 +328,13 @@ section.module.parallax-5{
         grid-row: calc(40 - 26)/ span calc(40 - 32);
         color: white;
         border: 2px solid #000000b6;
+        /* margin-bottom: 5vh; */
         /* border: 2px dashed #f69c55; */
     }
 
-
+    /* .image_cont{
+        margin-top: 2vh;
+    } */
 
     .data{
         grid-column: calc(160 - 80)/span 80;
@@ -339,13 +345,14 @@ section.module.parallax-5{
     }
 
     .data div{
-        margin-top: 10%;
-        margin-right: 10%;
+        margin-top: 7%;
+        margin-right: 15%;
     }
 
     .label{
         text-align: right;
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: calc(2vh);
         padding-top: 0%;
         padding-bottom: 0%;
         margin-top: 0%;
@@ -355,7 +362,8 @@ section.module.parallax-5{
     .label_val{
         text-align: right;
         font-family: 'Flenja', serif;
-        font-size: 50px;
+        /* font-size: 50px; */
+        font-size: calc(7vh);
         padding-top: 0%;
         padding-bottom: 0%;
         margin-top: 0%;
@@ -422,6 +430,8 @@ section.module.parallax-5{
         height: calc(100vh - 0px);
         width: 100%;
         flex: 0 0 auto;
+
+        overflow-y: auto;
     
         background-attachment: fixed;
         background-position: center;
@@ -431,23 +441,119 @@ section.module.parallax-5{
     }
 
     .information_cont{
-        display: flex;
+        display: block;
     }
-    
-    .column1 {
-        height: 100vh;
-        flex:55%;
+
+    .page_title{
+        grid-column: 2/ span calc(160 - 82);
+        grid-row: 2/ span calc(40 - 22);
+        color: white;
+        text-shadow: 2px 2px #00000081;
         /* border: 2px dashed #f69c55; */
     }
-    
-    .column2 {
-        height: 100vh;
-        flex:45%;
+
+    .page_title div{
+        margin-top: 10vh;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-left: 5%;
+    }
+
+    .page_title span{
+        font-size: 3vw;
+    }
+
+    .location{
+        color: white;
+        /* font-size: 50px; */
+        font-size: 4vw;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .date{
+        color: white;
+        font-size: 6vw;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .text-1 p{
+        text-align: center;
+        overflow-y: scroll;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.63);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-height: 75%;
+        margin-top: 2vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .text-2 p{
+        text-align: center;
+        overflow-y: scroll;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.63);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-height: 75%;
+        margin-top: 4vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+
+    .data{
+        color: white;
+        text-shadow: 2px 2px #00000081;
+        
         /* border: 2px dashed #f69c55; */
     }
+
+    .data div{
+        background-color: rgba(0, 0, 0, 0.527);
+        margin-top: 7%;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .label{
+        text-align: right;
+        /* font-size: 20px; */
+        font-size: 15px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .label_val{
+        text-align: right;
+        font-family: 'Flenja', serif;
+        /* font-size: 50px; */
+        font-size: 50px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .label_val span{
+        font-size: 20px;
+    }
+    
 }
 
-@media screen and (max-width: 375px){
+/* @media screen and (max-width: 375px){
     html, body{
         overflow-y: hidden;
     }
@@ -475,15 +581,14 @@ section.module.parallax-5{
     .column1 {
         height: 100vh;
         flex:55%;
-        /* border: 2px dashed #f69c55; */
     }
     
     .column2 {
         height: 100vh;
         flex:45%;
-        /* border: 2px dashed #f69c55; */
     }
-}
+
+} */
 
 
 .navbar-toggler:focus {
