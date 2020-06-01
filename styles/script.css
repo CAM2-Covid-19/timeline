@@ -634,6 +634,6 @@ ul li{
 @media(max-width: 767px)
 {
     .navbar-color-changer{
-        background-color: #1b1b1b;
+        background-color: #1b1b1b !important;
     }
 }
