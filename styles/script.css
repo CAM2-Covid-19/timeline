@@ -10,6 +10,7 @@ html, body{
     overscroll-behavior: none;
     margin:0;
     font-family: 'Exo 2', sans-serif;
+    letter-spacing: 0.0625em;
 }
 
 .container{
