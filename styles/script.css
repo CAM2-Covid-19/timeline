@@ -51,9 +51,9 @@ section.module.parallax-5{
     text-align: center;
     font-size: 100px;
     color: white;
-    background-image: url("../src/CovidScatter.png");
+    /* background-image: url("../src/CovidScatter.png"); */
 
-    /* background-color: black; */
+    background-color: black;
     /* scroll-snap-align: center; */
 }
 
