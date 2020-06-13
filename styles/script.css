@@ -3,13 +3,14 @@
     src: url("../src/Fonts/Flenja/Flenja-Regular.otf")
 }
 
+
 html, body{
     background-color: black;
     height: 100vh;
     /* overflow-y: hidden; */
     overscroll-behavior: none;
     margin:0;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo 2', sans-serif;  
 }
 
 .container{
@@ -27,31 +28,70 @@ html, body{
 
 section.module.parallax-1{
     /* background-color: black; */
-    background-image: url("../src/greetings.png");
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/greetings4.png?raw=true");
     /* border: 2px dashed #f69c55; */
 }
 
 
 section.module.parallax-2{
-    background-image: url("../src/wuhan2.png");
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/wuhan_bridge720.png?raw=true");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-3{
-    background-image: url("../src/seatle.png");
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/seattle_edit720.png?raw=true");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-4{
-    background-image: url("../src/nyc3.png");
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/tokyo2720.png?raw=true");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-5{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/UN_building720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-6{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/who720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-7{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/LA720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-8{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/NYC720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-9{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/un-2720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-10{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/bejing720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+section.module.parallax-11{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/chicago720.png?raw=true");
+    /* scroll-snap-align: center; */
+}
+
+
+
+
+
+section.module.parallax-12{
     text-align: center;
     font-size: 100px;
     color: white;
-    /* background-image: url("../src/CovidScatter.png"); */
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/covidscatter720.png?raw=true");
 
     background-color: black;
     /* scroll-snap-align: center; */
@@ -136,9 +176,33 @@ section.module.parallax-5{
 
 #directions{
     font-size: 14px;
+    animation: pulse 2s infinite;
+}
+
+#link1{
     color: white;
-    /* padding-bottom: 10%; */
-    margin-top: 20%;
+}
+
+#link2{
+    color: grey;
+    font-size: 12px;
+}
+
+#SS:hover, #SS:active, #SS:visited, #SS:focus{
+    text-decoration: none;
+    animation: pulse2 10s infinite;
+}
+
+#directions:hover, #directions:active, #directions:visited, #directions:focus{
+    text-decoration: None;
+    animation: pulse2 0.5s ease-in;
+}
+
+
+
+#SS{
+    margin-top: 40px;
+    text-decoration: none;
 }
 
 .end_page{
@@ -176,6 +240,15 @@ section.module.parallax-5{
         /* background-size: cover; */
         background-size: cover;
         scroll-snap-align: center;
+    }
+
+    #info{
+        position: absolute;
+        /* bottom: -300px; */
+        bottom: -75%;
+        width: 100%;
+        /* padding-bottom: 10%; */
+        /* border: 2px dashed #f69c55; */
     }
 
     .information_cont{
@@ -345,9 +418,10 @@ section.module.parallax-5{
     }
 
     .data div{
-        margin-top: 7%;
-        margin-right: 15%;
+        margin-top: 12%;
+        margin-right: 15%; 
     }
+
 
     .label{
         text-align: right;
@@ -357,21 +431,24 @@ section.module.parallax-5{
         padding-bottom: 0%;
         margin-top: 0%;
         margin-bottom: 0%;
+        text-shadow: 0.1vh 0.1vh 2px blue
     }
 
     .label_val{
         text-align: right;
         font-family: 'Flenja', serif;
         /* font-size: 50px; */
-        font-size: calc(7vh);
+        font-size: calc(9vh);
         padding-top: 0%;
         padding-bottom: 0%;
         margin-top: 0%;
         margin-bottom: 0%;
+        text-shadow: 2px 2px 0px blue;
     }
 
     .label_val span{
-        font-size: 25px;
+        font-size: 35px;
+        text-shadow: 2px 2px 0px blue;
     }
 
     .instruct{
@@ -380,6 +457,15 @@ section.module.parallax-5{
         grid-row: calc(40 - 2)/ span calc(40 - 39);
         color: white;
         font-size: 15px;
+        /* border: 2px dashed #f69c55; */
+        animation: pulse 2s infinite;
+    }
+
+    .instruct:hover, .instruct:active, .instruct:visited, .instruct:focus{
+        color: white;
+        transform: scale(1.1);
+        text-decoration:none;
+        animation: pulse2 0.1s ease-in;
         /* border: 2px dashed #f69c55; */
     }
 
@@ -542,7 +628,7 @@ section.module.parallax-5{
         /* font-size: 50px; */
         font-size: 50px;
         padding-top: 0%;
-        padding-bottom: 0%;
+        padding-bottom: 2%;
         margin-top: 0%;
         margin-bottom: 0%;
     }
@@ -550,7 +636,37 @@ section.module.parallax-5{
     .label_val span{
         font-size: 20px;
     }
-    
+
+    #info{
+        position: absolute;
+        /* bottom: -300px; */
+        bottom: -70%;
+        width: 100%;
+        /* padding-bottom: 10%; */
+        /* border: 2px dashed #f69c55; */
+    }
+
+    .instruct{
+        /* margin-top: 30%;
+        margin-bottom: 30%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        border: 2px dashed #f69c55;
+        animation: pulse 2s infinite;  */
+        visibility: hidden;
+    } 
+
+    /* .instruct:hover, .instruct:active, .instruct:visited, .instruct:focus{
+        color: white;
+        transform: scale(1.1);
+        text-decoration:none;
+        animation: pulse2 0.1s ease-in;
+        border: 2px dashed #f69c55; 
+    } */
+    .data{
+        padding-bottom: 100px;
+    }
 }
 
 /* @media screen and (max-width: 375px){
@@ -638,4 +754,67 @@ ul li{
         padding-top:10px; 
         font-size: 50px;
     }
+}
+
+@media screen and (max-width: 734px){
+
+}
+
+
+/* @keyframes pulse {
+	0% {
+		transform: scale(0.95);
+
+	}
+
+	70% {
+		transform: scale(1);
+
+	}
+
+	100% {
+		transform: scale(0.95);
+
+    }
+    
+} */
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.90);
+		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); */
+    }
+    
+
+	60% {
+		transform: scale(1.0);
+		/* box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); */
+    }
+    
+
+	100% {
+		transform: scale(0.90);
+		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
+    }
+    
+}
+
+@keyframes pulse2 {
+	0% {
+		transform: scale(1);
+		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); */
+    }
+    
+
+	70% {
+		transform: scale(1.1);
+		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
+    }
+
+    100% {
+		transform: scale(1.0);
+		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
+    }
+    
 }
