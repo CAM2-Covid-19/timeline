@@ -54,7 +54,7 @@ section.module.parallax-5{
 }
 
 section.module.parallax-6{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/who720.png?raw=true");
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/italy720.png?raw=true");
     /* scroll-snap-align: center; */
 }
 
@@ -97,53 +97,7 @@ section.module.parallax-12{
     /* scroll-snap-align: center; */
 }
 
-.image1.image-1{
-    background-image: url("https://i.insider.com/5e982cb3b3b09249af3fc3d6?width=2500&format=jpeg&auto=webp");
-    background-size: cover;
-    background-position: center;
-}
 
-.image2.image-2{
-    background-image: url("https://www.globaltimes.cn/Portals/0/attachment/2020/2020-05-20/21baf502-3e3e-4771-8b18-3c08d6aaa99c.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image3.image-3{
-    background-image: url("https://www.globaltimes.cn/Portals/0/attachment/2020/2020-05-20/21baf502-3e3e-4771-8b18-3c08d6aaa99c.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image4.image-4{
-    background-image: url("https://i.insider.com/5e982cb3b3b09249af3fc3d6?width=2500&format=jpeg&auto=webp");
-    background-size: cover;
-    background-position: center;
-}
-
-.image5.image-1{
-    background-image: url("https://i.insider.com/5e982cb3b3b09249af3fc3d6?width=2500&format=jpeg&auto=webp");
-    background-size: cover;
-    background-position: center;
-}
-
-.image6.image-2{
-    background-image: url("https://www.globaltimes.cn/Portals/0/attachment/2020/2020-05-20/21baf502-3e3e-4771-8b18-3c08d6aaa99c.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image7.image-3{
-    background-image: url("https://www.globaltimes.cn/Portals/0/attachment/2020/2020-05-20/21baf502-3e3e-4771-8b18-3c08d6aaa99c.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image8.image-4{
-    background-image: url("https://i.insider.com/5e982cb3b3b09249af3fc3d6?width=2500&format=jpeg&auto=webp");
-    background-size: cover;
-    background-position: center;
-}
 
 .title_page{
     text-align: center;
@@ -817,4 +771,253 @@ ul li{
 		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
     }
     
+}
+
+
+/* page set 1 */
+.image1.image-1{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2.image-2{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3.image-3{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china4.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4.image-4{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china3.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5.image-1{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6.image-2{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa4.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image7.image-3{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa3.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image8.image-4{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* page set 2 */
+.image1.image-5{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan4.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2.image-6{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3.image-7{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4.image-8{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan3.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5.image-5{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un9.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6.image-6{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un10.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image7.image-7{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un11.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image8.image-8{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un12.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* page set 3 */
+.image1.image-9{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2.image-10{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3.image-11{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy4.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4.image-12{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy3.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5.image-9{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa7.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6.image-10{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa6.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image7.image-11{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa8.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image8.image-12{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa5.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* page set 4 */
+.image1.image-13{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa9.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2.image-14{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa10.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3.image-15{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa11.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4.image-16{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa12.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5.image-13{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6.image-14{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image7.image-15{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un3.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image8.image-16{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un4.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+/* page set 5 */
+.image1.image-17{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un5.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2.image-18{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un6.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3.image-19{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un7.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4.image-20{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un8.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5.image-17{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa15.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6.image-18{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa13.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image7.image-19{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa14.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+.image8.image-20{
+    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa16.png?raw=true");
+    background-size: cover;
+    background-position: center;
 }

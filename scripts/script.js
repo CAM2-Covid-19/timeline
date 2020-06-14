@@ -11,11 +11,6 @@ function numberWithCommas(x) {
 
 
 $(document).ready(function(){
-    //var worldwide = httpGet("https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats");
-    //var worldwide = httpGet("https://api.covid19api.com/summary");
-    // var countries = httpGet("https://corona-virus-stats.herokuapp.com/api/v1/cases/countries-search");
-    // console.log(worldwide)
-    // console.log(countries)
     $.ajax({ 
         type : "GET", 
         url : "https://api.smartable.ai/coronavirus/stats/US", 
@@ -45,16 +40,8 @@ $(document).ready(function(){
             console.log(result)
         } 
     });
-
-    // fetch("https://corona-virus-stats.herokuapp.com/api/v1/cases/countries-search").then(
-    //     response => response.json()
-    // ).then(
-    //     data => {
-    //         console.log(data["data"])
-    //         $("#usalive").text(data["data"]["rows"][1]["total_cases"])
-    //         $("#usalived").text(data["data"]["rows"][1]["total_deaths"])
-    //     }
-    // )
 });
+
+
 
 
