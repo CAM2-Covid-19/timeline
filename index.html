@@ -45,7 +45,7 @@
 <body>
     <div id = "scroll_wrap">
         <div class = "container" id="bg">
-            <section class = "module parallax parallax-1 lazy">
+            <section class = "module parallax parallax-1">
                 <div class = "title_page">
                     <p class = "titles prep"> The Story of COVID-19:</p> 
                     <p class = "titles2 mt-2"> And Our Milestones of Progress</p> 
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </section>
-            <section class = "module parallax parallax-2 lazy">
+            <section class = "module parallax parallax-2">
                 <div class="information_cont" id = "one">
                     <div class= "page_title">
                         <div>
@@ -98,7 +98,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-3 lazy" >
+            <section class = "module parallax parallax-3" >
                 <div class="information_cont" id = "two">
                     <div class= "page_title">
                         <div>
@@ -131,7 +131,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-4 lazy" >
+            <section class = "module parallax parallax-4" >
                 <div class="information_cont" id = "three">
                     <div class= "page_title">
                         <div>
@@ -161,7 +161,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-5 lazy" >
+            <section class = "module parallax parallax-5" >
                 <div class="information_cont" id = "four">
                     <div class= "page_title">
                         <div>
@@ -191,7 +191,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-6 lazy" >
+            <section class = "module parallax parallax-6" >
                 <div class="information_cont" id = "five">
                     <div class= "page_title">
                         <div>
@@ -221,7 +221,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-7 lazy" >
+            <section class = "module parallax parallax-7" >
                 <div class="information_cont" id = "six">
                     <div class= "page_title">
                         <div>
@@ -251,7 +251,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-8 lazy" >
+            <section class = "module parallax parallax-8" >
                 <div class="information_cont" id = "seven">
                     <div class= "page_title">
                         <div>
@@ -281,7 +281,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-9 lazy" >
+            <section class = "module parallax parallax-9" >
                 <div class="information_cont" id = "eight">
                     <div class= "page_title">
                         <div>
@@ -311,7 +311,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-10 lazy" >
+            <section class = "module parallax parallax-10" >
                 <div class="information_cont" id = "nine">
                     <div class= "page_title">
                         <div>
@@ -341,7 +341,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-11 lazy" >
+            <section class = "module parallax parallax-11" >
                 <div class="information_cont" id = "ten">
                     <div class= "page_title">
                         <div>
@@ -371,7 +371,7 @@
                     <div class = "border-4">b4</div> -->
                 </div>
             </section>
-            <section class = "module parallax parallax-12 lazy" >
+            <section class = "module parallax parallax-12" >
                 <div class = "end_page" id = "end">
                     <p class = "titles" style="margin-top: 100px;">Today</p>
                     <p class = "titles2 mt-2">Cases (World Wide): <span id = "wwlive">10</span></p> 
@@ -387,26 +387,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.lazy.min.js"></script>
     <!-- Core theme JS-->
     <!-- <script src="js/script.js"></script> -->
     <script>
         var hamburger = document.querySelector(".hamburger");
         hamburger.addEventListener("click", function() {
         hamburger.classList.toggle("is-active");
-        });
-    </script>
-    <script>
-        $(function() {
-            $('.lazy').Lazy({
-                // your configuration goes here
-                scrollDirection: 'vertical',
-                effect: 'fadeIn',
-                visibleOnly: true,
-                onError: function(element) {
-                    console.log('error loading ' + element.data('src'));
-                }
-            });
         });
     </script>
 </body>
