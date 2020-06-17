@@ -28,58 +28,58 @@ html, body{
 
 section.module.parallax-1{
     /* background-color: black; */
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/greetings4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/greetings4.png");
     /* border: 2px dashed #f69c55; */
 }
 
 
 section.module.parallax-2{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/wuhan_bridge720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/wuhan_bridge720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-3{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/seattle_edit720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/seattle_edit720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-4{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/tokyo2720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/tokyo2720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-5{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/UN_building720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/UN_building720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-6{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/italy720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/italy720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-7{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/LA720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/LA720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-8{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/NYC720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/NYC720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-9{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/un-2720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/un-2720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-10{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/bejing720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/bejing720.png");
     /* scroll-snap-align: center; */
 }
 
 section.module.parallax-11{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/chicago720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/chicago720.png");
     /* scroll-snap-align: center; */
 }
 
@@ -91,7 +91,7 @@ section.module.parallax-12{
     text-align: center;
     font-size: 100px;
     color: white;
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/covidscatter720.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/covidscatter720.png");
 
     background-color: black;
     /* scroll-snap-align: center; */
@@ -776,49 +776,49 @@ ul li{
 
 /* page set 1 */
 .image1.image-1{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china2.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/china2.png");
     background-size: cover;
     background-position: center;
 }
 
 .image2.image-2{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china1.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/china1.png");
     background-size: cover;
     background-position: center;
 }
 
 .image3.image-3{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/china4.png");
     background-size: cover;
     background-position: center;
 }
 
 .image4.image-4{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/china3.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/china3.png");
     background-size: cover;
     background-position: center;
 }
 
 .image5.image-1{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa2.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa2.png");
     background-size: cover;
     background-position: center;
 }
 
 .image6.image-2{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa4.png");
     background-size: cover;
     background-position: center;
 }
 
 .image7.image-3{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa3.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa3.png");
     background-size: cover;
     background-position: center;
 }
 
 .image8.image-4{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa1.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa1.png");
     background-size: cover;
     background-position: center;
 }
@@ -826,49 +826,49 @@ ul li{
 
 /* page set 2 */
 .image1.image-5{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/japan4.png");
     background-size: cover;
     background-position: center;
 }
 
 .image2.image-6{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan1.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/japan1.png");
     background-size: cover;
     background-position: center;
 }
 
 .image3.image-7{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan2.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/japan2.png");
     background-size: cover;
     background-position: center;
 }
 
 .image4.image-8{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/japan3.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/japan3.png");
     background-size: cover;
     background-position: center;
 }
 
 .image5.image-5{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un9.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un9.png");
     background-size: cover;
     background-position: center;
 }
 
 .image6.image-6{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un10.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un10.png");
     background-size: cover;
     background-position: center;
 }
 
 .image7.image-7{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un11.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un11.png");
     background-size: cover;
     background-position: center;
 }
 
 .image8.image-8{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un12.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un12.png");
     background-size: cover;
     background-position: center;
 }
@@ -876,49 +876,49 @@ ul li{
 
 /* page set 3 */
 .image1.image-9{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy2.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/italy2.png");
     background-size: cover;
     background-position: center;
 }
 
 .image2.image-10{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy1.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/italy1.png");
     background-size: cover;
     background-position: center;
 }
 
 .image3.image-11{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/italy4.png");
     background-size: cover;
     background-position: center;
 }
 
 .image4.image-12{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/italy3.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/italy3.png");
     background-size: cover;
     background-position: center;
 }
 
 .image5.image-9{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa7.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa7.png");
     background-size: cover;
     background-position: center;
 }
 
 .image6.image-10{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa6.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa6.png");
     background-size: cover;
     background-position: center;
 }
 
 .image7.image-11{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa8.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa8.png");
     background-size: cover;
     background-position: center;
 }
 
 .image8.image-12{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa5.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa5.png");
     background-size: cover;
     background-position: center;
 }
@@ -926,103 +926,99 @@ ul li{
 
 /* page set 4 */
 .image1.image-13{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa9.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa9.png");
     background-size: cover;
     background-position: center;
 }
 
 .image2.image-14{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa10.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa10.png");
     background-size: cover;
     background-position: center;
 }
 
 .image3.image-15{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa11.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa11.png");
     background-size: cover;
     background-position: center;
 }
 
 .image4.image-16{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa12.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa12.png");
     background-size: cover;
     background-position: center;
 }
 
 .image5.image-13{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un1.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un1.png");
     background-size: cover;
     background-position: center;
 }
 
 .image6.image-14{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un2.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un2.png");
     background-size: cover;
     background-position: center;
 }
 
 .image7.image-15{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un3.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un3.png");
     background-size: cover;
     background-position: center;
 }
 
 .image8.image-16{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un4.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un4.png");
     background-size: cover;
     background-position: center;
 }
 
 /* page set 5 */
 .image1.image-17{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un5.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un5.png");
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+    /* color: rgb(53, 53, 180); */
 }
 
 .image2.image-18{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un6.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un6.png");
     background-size: cover;
     background-position: center;
 }
 
 .image3.image-19{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un7.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un7.png");
     background-size: cover;
     background-position: center;
 }
 
 .image4.image-20{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/un8.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/un8.png");
     background-size: cover;
     background-position: center;
 }
 
 .image5.image-17{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa15.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa15.png");
     background-size: cover;
     background-position: center;
 }
 
 .image6.image-18{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa13.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa13.png");
     background-size: cover;
     background-position: center;
 }
 
 .image7.image-19{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa14.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa14.png");
     background-size: cover;
     background-position: center;
 }
 
 .image8.image-20{
-    background-image: url("https://github.com/vishnubanna/Covid_19_images/blob/master/timeline/full_contrast/usa16.png?raw=true");
+    background-image: url("http://vision.cs.luc.edu/~cv/Covid_19_images/timeline/full_contrast/usa16.png");
     background-size: cover;
     background-position: center;
-}
-section.lazy {
-    width: 700px; 
-    height: 467px; 
-    display: block;
 }
